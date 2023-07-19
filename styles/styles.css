@@ -30,7 +30,7 @@ nav ul li a{
 .section-1{
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
     margin: 0rem 2rem;
     padding: 2rem;
 }
@@ -38,7 +38,7 @@ nav ul li a{
     color: #0B0223;
     text-align: center;
     font-family: Work Sans;
-    font-size: 48px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -80,4 +80,60 @@ h1{
     gap: 0.7rem;
     border-radius: 3rem;
     background: #4EC5F7;
+}
+
+
+.section-2{
+
+}
+
+h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+.section-2{
+    display: grid;
+    -ms-grid-row-span: 1;
+ 
+}
+.section-2-text{
+    margin-bottom: 100px;
+    text-align: center;
+    justify-content: space-between;
+
+    
+    
+}
+.section-2-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 342px;
+    height: 400px;
+
+
+    flex-shrink: 0;
+
+}
+
+.play-btn{
+    width: 60px;
+    position: relative;
+    cursor: pointer;
+}
+.section-2-img .card{
+    flex: 1;
+    margin: 20px 20px;
+
+}
+.section-3{
+    padding-top: 2rem;
 }
